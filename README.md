@@ -1,5 +1,5 @@
 # About SessionSaver
-A very small utility that allows you to keep your sessions in a state of life by simulating user actions.
+A very small utility written in Python 3 that allows you to keep your sessions in a state of life by simulating user actions.
 
 # Installation
 ```
@@ -7,12 +7,13 @@ git clone https://github.com/JubyL3y/SessionSaver.git
 ```
 
 # Dependencies
-SessionSaver depends on the requests, beautifulsoup4 and lxml.
+SessionSaver depends on the Python3, requests, beautifulsoup4 and lxml.
 
 You can install it with command:
 ```
 pip install -r requirements.txt
 ```
+
 
 # Usage
 ```
