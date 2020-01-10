@@ -13,8 +13,10 @@ You can install it with command:
 ```
 pip install -r requirements.txt
 ```
-
-
+or if you have python2 and python3
+```
+pip3 install -r requirements.txt
+```
 # Usage
 ```
 sessionsaver.py [-h] --cookie COOKIE [--base_url B_URL]
@@ -32,6 +34,7 @@ optional arguments:
 ```
 
 # Examples
+Caution: Use Python 3
 ### Simple run on wikipedia.org
 ```
 python sessionsaver.py --cookie "SOME_COOKIE" --base_url https://www.wikipedia.org/
